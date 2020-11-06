@@ -8,7 +8,7 @@ public class Servlet {
 
     @GetMapping(value = "/")
     public String hello() {
-        return "hello world";
+        return "hello World";
     }
 
 }
